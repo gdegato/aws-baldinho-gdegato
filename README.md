@@ -1,7 +1,7 @@
 # Baldinho G de Gato
 
 Este conteúdo foi desenvolvido para aplicar o conhecimento da certificação AWS Cloud Practitioner em uma funcionalidade útil para desenvolvimento frontend usando ReactJS.  
-[Certificação AWS Cloud Practitioner](#https://www.credly.com/badges/7789e947-45fe-405b-90f5-3789a8be48f4)
+[Certificação AWS Cloud Practitioner](https://www.credly.com/badges/7789e947-45fe-405b-90f5-3789a8be48f4)
 
 ## Descrição da Aplicação
 
@@ -55,4 +55,4 @@ Este conteúdo foi desenvolvido para aplicar o conhecimento da certificação AW
 
 ## Demonstração
 
-[Veja a aplicação em funcionamento no YouTube](#https://www.youtube.com/watch?v=0dYEzEmPgUQ)
+[Veja a aplicação em funcionamento no YouTube](https://www.youtube.com/watch?v=0dYEzEmPgUQ)
