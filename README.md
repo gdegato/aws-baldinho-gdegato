@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Baldinho G de Gato
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este conteúdo foi desenvolvido para aplicar o conhecimento da certificação AWS Cloud Practitioner em uma funcionalidade útil para desenvolvimento frontend usando ReactJS.  
+[Certificação AWS Cloud Practitioner](#https://www.credly.com/badges/7789e947-45fe-405b-90f5-3789a8be48f4)
 
-## Available Scripts
+## Descrição da Aplicação
 
-In the project directory, you can run:
+"Baldinho G de Gato" é uma aplicação desenvolvida em ReactJS para realizar o upload de arquivos diretamente para um bucket da AWS S3. Ao clicar no botão de envio, o arquivo é carregado para o bucket configurado, utilizando as credenciais fornecidas nas variáveis de ambiente.
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Upload de arquivos para um bucket S3 configurado.
+- Configuração por meio de variáveis de ambiente: `API_KEY`, `SECRET_KEY`, `AWS_REGION`, `Bucket` e `ACL`.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Passo-a-Passo para Instalação
 
-### `npm test`
+1. Clone o repositório da aplicação:
+    ```bash
+    git clone https://github.com/seu-usuario/baldinho-g-de-gato.git
+    cd baldinho-g-de-gato
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Instale as dependências necessárias:
+    ```bash
+    npm install
+    ```
 
-### `npm run build`
+3. Certifique-se de ter instalado as seguintes bibliotecas:
+    - [Create React App](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)
+    - [AWS SDK](https://www.npmjs.com/package/aws-sdk)
+    - [Material-UI](https://mui.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Configure as variáveis de ambiente no arquivo `.env` localizado na raiz do projeto:
+    ```plaintext
+    REACT_APP_API_KEY=YOURAPIKEY
+    REACT_APP_SECRET_KEY=YOURSECRETKEY
+    REACT_APP_AWS_REGION=YOURAWSREGION
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. Na pasta `.aws`, crie uma subpasta chamada `credentials` contendo um arquivo `.ini` com o seguinte conteúdo:
+    ```ini
+    [default]
+    aws_access_key_id = YOURACCESSKEY
+    aws_secret_access_key = YOURSECRETACCESSKEY
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+6. Execute a aplicação:
+    ```bash
+    npm start
+    ```
 
-### `npm run eject`
+## Personalização
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Ao clonar a aplicação, lembre-se de customizar os valores das variáveis de ambiente `API_KEY`, `SECRET_KEY`, `AWS_REGION` e `Bucket` conforme as suas credenciais e configurações da AWS.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Demonstração
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Veja a aplicação em funcionamento no YouTube](#https://www.youtube.com/watch?v=0dYEzEmPgUQ)
