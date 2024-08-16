@@ -55,4 +55,6 @@ Este conteúdo foi desenvolvido para aplicar o conhecimento da certificação AW
 
 ## Demonstração
 
+![Image](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2RjdWQ4NTJ2Nmowd2kyamI1NjNudW9md3NjbWRzdzBnd3IxYjRveSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Dcpq32rVCOttrjKUn5/giphy.gif)
+
 [Veja a aplicação em funcionamento no YouTube](https://www.youtube.com/watch?v=0dYEzEmPgUQ)
