@@ -53,6 +53,7 @@ function FileUpload() {
       ContentType: file.type,
       ACL: 'public-read',
     }
+    
 
     try {
       const data = await s3.upload(params).promise()
@@ -60,7 +61,8 @@ function FileUpload() {
       console.log('o que retornou da api', data)
       console.log(params.location)
     } catch (error) {
-      setMessage(`Erro ao enviar o arquivo: ${error.message}`)
+      //setMessage(`Erro ao enviar o arquivo: ${error.message}`)
+      setMessage(`A AWS cobra pelo armazenamento e não posso deixar liberado para qualquer usuário subir arquivos no baldinho GdeGato!`)      
       console.log(error.message)
     } finally {
       setUploading(false)
